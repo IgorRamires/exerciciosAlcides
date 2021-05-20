@@ -7,14 +7,27 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
-.walt {
+#main-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
 
+.center {
+    text-align: center;
+}
+
+
+.margin {
+    margin: 0 50px;
+}
+
 .tabelaEditavel {
-        text-align: center;
-        border: solid 1px;
-        width: 100%;
+    text-align: center;
+    border: solid 1px;
+    width: 100%;
 }
 
 .tabelaEditavel td {
