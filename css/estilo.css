@@ -19,6 +19,9 @@ h1 {
     text-align: center;
 }
 
+.right {
+    text-align: right;
+}
 
 .margin {
     margin: 0 50px;
