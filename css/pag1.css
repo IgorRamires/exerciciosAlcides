@@ -3,16 +3,15 @@ body {
 	margin: 0;
 }
 
-.image-hero {
-	background-image: url(/images/Principal.jpg);
-	background-size: cover;
-	object-fit: fill;
-}
-
 h1 {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 100px;
+}
+
+.main-hero {
+  background-image: url(/images/Principal.jpg);
+  background-size: cover;
 }
 
 main{
@@ -22,7 +21,7 @@ main{
 	background-color: darkgreen;
 	border-radius: 10px;
 	padding: 10px;
-	opacity: 98%;
+	opacity: 95%;
 }
 
 nav{
