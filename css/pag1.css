@@ -9,10 +9,13 @@ h1 {
   margin-top: 100px;
 }
 
+
 .main-hero {
   background-image: url(/images/Principal.jpg);
   background-size: cover;
 }
+
+
 
 main{
 	max-width: 85%;
