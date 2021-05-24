@@ -3,17 +3,19 @@ body {
 	margin: 0;
 }
 
-.image-hero {
-	background-image: url(/images/Principal.jpg);
-	background-size: cover;
-	object-fit: fill;
-}
-
 h1 {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 100px;
 }
+
+
+.main-hero {
+  background-image: url(/images/Principal.jpg);
+  background-size: cover;
+}
+
+
 
 main{
 	max-width: 85%;
