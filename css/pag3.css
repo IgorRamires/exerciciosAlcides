@@ -1,5 +1,5 @@
 body {
-  background-color: darkgreen;
+  background-color: rgb(7, 102, 7);
 	margin: 0 30px;
   line-height: 30px;
   font-family: sans-serif;
@@ -49,4 +49,10 @@ nav ul li{
 
 ul li:hover{
   background-color: darkgray;
+}
+
+.text1{
+  text-align: justify;
+  background-color:wheat;
+  padding: 15px;
 }
