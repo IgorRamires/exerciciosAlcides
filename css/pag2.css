@@ -1,28 +1,19 @@
 body {
-  background-color: #107d2d;
+  background-color: darkgreen;
 	margin: 0;
 }
 
-.image-hero {
-	background-image: url(/images/Principal.jpg);
-	background-size: cover;
-	object-fit: fill;
-}
-
-h1 {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  margin-top: 100px;
-}
-
 main{
-	max-width: 85%;
+	max-width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: darkgreen;
 	border-radius: 10px;
 	padding: 10px;
-	opacity: 98%;
+}
+
+.medicao{
+  margin-top: 110px;
 }
 
 nav{
@@ -56,40 +47,4 @@ nav ul li{
 
 ul li:hover{
   background-color: darkgray;
-}
-
-#main-footer {
-	text-align: center;
-	margin-top: 50px;
-	color: rgb(5, 5, 5);
-	max-width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.center {
-  text-align: center;
-	position: relative;
-}
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
-.margin {
-  margin: 0 50px;
-}
-
-.tabelaEditavel {
-  text-align: center;
-  border: solid 1px;
-  width: 100%;
-}
-
-.tabelaEditavel td {
-  border:solid 1px;
 }
