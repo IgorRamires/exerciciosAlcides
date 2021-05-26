@@ -64,3 +64,12 @@ a:link, a:visited {
   background-color:wheat;
   padding: 15px;
 }
+
+#main-footer {
+	text-align: center;
+	margin-top: 50px;
+	color: rgb(5, 5, 5);
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}

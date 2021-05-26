@@ -11,8 +11,7 @@ h1 {
 
 
 .main-hero {
-  background-image: url(/images/Principal.jpg);
-  background-size: cover;
+  background-color: rgb(194, 194, 2);
 }
 
 
@@ -72,6 +71,12 @@ ul li:hover{
 .center {
   text-align: center;
 	position: relative;
+}
+
+.logo {
+  max-height: 200px;
+  left: auto;
+  right: auto;
 }
 
 .left {
