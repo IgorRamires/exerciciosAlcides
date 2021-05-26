@@ -73,12 +73,6 @@ ul li:hover{
 	position: relative;
 }
 
-.logo {
-  max-height: 200px;
-  left: auto;
-  right: auto;
-}
-
 .left {
   text-align: left;
 }
