@@ -52,3 +52,8 @@ ul li:hover{
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.center {
+  text-align: center;
+	position: relative;
+}

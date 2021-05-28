@@ -17,14 +17,9 @@
     <main>
         <nav>
             <ul>
-                <li><a href="pag1.html">Redirecionamento de Página</a></li>
-                <li><a href="pag2.html">Formulário</a> </li>
-                <li><a href="pag3.html">Sinopse BrBad</a></li>
-                <li><a href="pag4.html">Elenco BrBad</a></li>
-                <li><a href="pag5.html">Curiosidades BrBad</li>
-                <li><a href="pag6.html">El Camino</a></li>
-                <li><a href="pag7.html">Elenco El Camino</a> </li>
-                <li><a href="pag8.html">Better Call Saul</a></li>
+                <?php
+		            include "php/menu.inc";
+		        ?>
             </ul>
         </nav>
         <h1>Elenco Breaking Bad</h1>
