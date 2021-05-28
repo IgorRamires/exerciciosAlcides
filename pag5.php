@@ -25,11 +25,10 @@
     <main>
         <nav>
             <ul>
-            <?php
-		include "php/menu.inc";
-		?>
+                <?php
+		            include "php/menu.inc";
+		        ?>
             </ul>
-
         </nav>
 
 

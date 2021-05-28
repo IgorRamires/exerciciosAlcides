@@ -17,9 +17,9 @@
     <main>
         <nav>
             <ul>
-            <?php
-		include "php/menu.inc";
-		?>
+                <?php
+		            include "php/menu.inc";
+		        ?>
             </ul>
         </nav>
         <h1>Elenco Breaking Bad</h1>

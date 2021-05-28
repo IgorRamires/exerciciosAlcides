@@ -11,12 +11,11 @@
 <body>
     <main>
         <nav>
-        <ul>
-        
-        <?php
-		include "php/menu.inc";
-		?>
-        </ul>
+            <ul>
+                <?php
+                    include "php/menu.inc";
+                ?>
+            </ul>
         </nav>
         <div class="medicao">
             <h1>Bem vindo ao formulário de Fãs de Breaking Bad</h1>

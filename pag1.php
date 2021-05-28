@@ -14,11 +14,11 @@
 
     <main>
         <nav>
-        <ul>
-        <?php
-        include "php/menu.inc";
-        ?>    
-        </ul>
+            <ul>
+                <?php
+                    include "php/menu.inc";
+                ?>    
+            </ul>
         </nav>
         
         <header>

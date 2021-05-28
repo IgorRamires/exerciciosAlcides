@@ -14,11 +14,10 @@
     <main>
         <nav>
             <ul>
-            <?php
-		include "php/menu.inc";
-		?>
+                <?php
+                    include "php/menu.inc";
+                ?>
             </ul>
-
         </nav>
         <h1>
             Elenco El Camino: Filme baseado em Breaking Bad
