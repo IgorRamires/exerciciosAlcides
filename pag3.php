@@ -8,6 +8,7 @@
     <title>Sinopse BrBad</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/pag3.css">
+    <!-- CSS interno abaixo -->
     <style>
         #grad1 {
             height: 20px;
@@ -24,21 +25,17 @@
 <body>
     <main>
         <nav>
-            <ul>
-                <li><a href="pag1.html">Redirecionamento de Página</a></li>
-                <li><a href="pag2.html">Formulário</a></li>
-                <li><a href="pag3.html">Sinopse BrBad</a></li>
-                <li><a href="pag4.html">Elenco BrBad</a></li>
-                <li><a href="pag5.html">Curiosidades BrBad</a></li>
-                <li><a href="pag6.html">El Camino</a></li>
-                <li><a href="pag7.html">Elenco El Camino</a></li>
-                <li><a href="pag8.html">Better Call Saul</a></li>
-            </ul>
+        <ul>
+        <?php
+		include "php/menu.inc";
+		?>
+        </ul>
         </nav>
         <header>
             <h1>Sinopse Breaking bad</h1>
         </header>
         <hr>
+        <!-- Class text1 para deixar o background-color da cor trigo e outros atributos  -->
         <div class="text1">
             <div id="grad1"></div>
             </header>

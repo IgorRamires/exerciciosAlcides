@@ -14,25 +14,19 @@
 
     <main>
         <nav>
-    
-           
-            <ul>
-                <li><a href="pag1.html">Redirecionamento de Página</a></li>
-                <li><a href="pag2.html">Formulário</a> </li>
-                <li><a href="pag3.html">Sinopse BrBad</a></li>
-                <li><a href="pag4.html">Elenco BrBad</a></li>
-                <li><a href="pag5.html">Curiosidades BrBad</li>
-                <li><a href="pag6.html">El Camino</a></li>
-                <li><a href="pag7.html">Elenco El Camino</a> </li>
-                <li><a href="pag8.html">Better Call Saul</a></li>
-            </ul>
+        <ul>
+        <?php
+        include "php/menu.inc";
+        ?>    
+        </ul>
         </nav>
+        
         <header>
             <br>
             <div class="center">
             <img src="images/logo.jpg"
             width="100px"
-            height="100px" alt="logo">
+            height="100px" alt="logo" title="Logo Breaking Bad">
             </div>
 
             <h1>
@@ -58,13 +52,11 @@
         <br>
         <div class="center">
             <img src="gif/yeahmrwhite.gif" alt="Jesse Pinkman falando com Walt" title="Jesse Pinkman Yeah,Science">
-            <audio controls>
-                <source src="audio/Yeah Science!.mp3">
-            </audio>
         </div>
         <br>
         <br>
         <br>
+        <!-- Footer sempre em último -->
         <footer id="main-footer">
             <p>Copyright &copy;2021,Igor Ramires</p>
         </footer>
