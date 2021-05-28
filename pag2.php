@@ -17,6 +17,7 @@
                 ?>
             </ul>
         </nav>
+        
         <div class="medicao">
             <h1>Bem vindo ao formulário de Fãs de Breaking Bad</h1>
             <h2>Preencha o formulário abaixo para participar do nosso grupo de administração da página <a
